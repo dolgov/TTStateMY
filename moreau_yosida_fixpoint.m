@@ -110,7 +110,7 @@ for i=1:maxiter
     gamma = min(gamma*2, gamma_final); % Increase gamma
 
     if ~isempty(plot_fun)
-        plot_fun(model,u,y_tt,W);
+        plot_fun(model,u,y_tt,W,xi_grid);
         drawnow;
     end
 
