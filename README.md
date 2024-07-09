@@ -15,7 +15,7 @@ Numerical experiment scripts (starting with `test_`) will try to download the TT
 - `test_vi.m` 2D elliptic variational inequality. Medium-fast.
 - `test_SEIR_constrained.m` random SEIR model with contrained R number. _Slow_.
 
-Each script will ask interactively to enter certain parameters (grid size, stopping tolerance, etc.). Default values are advised to reproduce the experiments in the paper and/or reduce the running time.
+Each script will ask interactively to enter certain parameters (grid size, stopping tolerance, etc.). Default values are advised to reproduce the experiments in the paper and/or reduce the running time. In particular, `test_1d_elliptic.m` reproduces the experiment with $\gamma=300$ by default for faster computations. You may change the parameters as in the paper to reproduce the other plots.
 
 ## Algorithms
 

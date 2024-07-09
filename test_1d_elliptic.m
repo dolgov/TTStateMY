@@ -3,7 +3,7 @@
 check_tt;
 ny = parse_parameter('(Odd) Number of spatial grid points ny', 63);
 nxi = parse_parameter('Number of grid points for each random variable nxi', 33);
-gamma = parse_parameter('Final Moreau-Yosida parameter gamma', 100);
+gamma = parse_parameter('Final Moreau-Yosida parameter gamma', 300);
 eps0 = parse_parameter('Initial smoothing parameter eps0', 0.5);
 tol = parse_parameter('Approximation and stopping tolerance', 1e-7);
 alpha = parse_parameter('Control regularization parameter alpha', 1e-2);
